@@ -15,7 +15,9 @@ To **fork** this repository, just click the "fork" button at the top right of yo
 
 When you fork a repository, you create an exact copy of that repository in your own account.
 
-![Screenshot of GitHub repository showing fork button](images/fork.png). You'll be asked *where* you'd like to fork it. Fork it to your own GitHub account.
+![Screenshot of GitHub repository showing fork button](images/fork.png). 
+
+You'll be asked *where* you'd like to fork it. Fork it to your own GitHub account.
 
 ### Clone
 
@@ -48,7 +50,7 @@ Head back to the `lit-dig-age-proj` repository in my account. That is, point you
 
 Use the green "Clone or download" button to copy the URL for *my* repository. (In the "clone" step above, you copied the URL of the clone in *your* repository.)
 
-In the terminal, `cd` into the clone you created above, which should be named `lit-dig-age-proj`. Type the following `git remote -v` and press `Return` or `Enter`. You should see somethingh like this:
+In the terminal, `cd` into the clone you created above, which should be named `lit-dig-age-proj`. Type `git remote -v` and press `Return` or `Enter`. You should see something like this:
 
 ```
 $ git remote -v
@@ -57,11 +59,13 @@ $ git remote -v
 ```
 Now type `git remote add upstream`, and then paste the URL you copied from *my repository*. You should see this:
 
+```
 $ git remote add upstream https://github.com/WhatTheDickens/lit-dig-age-proj.git
+```
 
-press `Return` or `Enter`.
+Press `Return` or `Enter`.
 
-To verify the new upstream repository you've specified for your fork, type `git remote -v again`. You should see the URL for your fork as **origin**, and the URL for the original repository as **upstream**.
+To verify the new upstream repository you've specified for your fork, type `git remote -v`. You should see the URL for your fork as **origin**, and the URL for the original repository as **upstream**.
 
 ```
 $ git remote -v
@@ -108,9 +112,9 @@ $ git merge upstream/master
 >  create mode 100644 README.md
 ```
 
-```
 If your local branch didn't have any unique commits, Git will instead perform a "fast-forward":
 
+```
 $ git merge upstream/master
 > Updating 34e91da..16c56ad
 > Fast-forward
