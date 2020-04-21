@@ -15,7 +15,7 @@ To **fork** this repository, just click the "fork" button at the top right of yo
 
 When you fork a repository, you create an exact copy of that repository in your own account.
 
-![Screenshot of GitHub repository showing fork button](images/fork.png). 
+![Screenshot of GitHub repository showing fork button](images/fork.png) 
 
 You'll be asked *where* you'd like to fork it. Fork it to your own GitHub account.
 
