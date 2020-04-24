@@ -144,3 +144,7 @@ In your own fork of the repository, click the "New pull request" button.
 This should take you to the upstream repository, where you'll see an "Open a pull request" dialog. The dialog should reflect that you're looking for your changes to be merged from your repository (the "head") to the upstream repository (the "base"). You should see a green check mark and the message "Able to merge." In the comment box, you can leave a short message about your request. Scroll down and click the green "Create pull request" button to create the pull request.
 
 That's it! Your request will kick a notification to me. I'll either approve your request, merging your changes into the repository in my account, or send you a message through GitHub that your file needs to be modified further in some way before it can be incorporated.
+
+## How you can practice this process
+
+Use the file `EDITME.md` in the folder `practice` to test your skills. The instructions are [in the file](practice/EDITME.md).
