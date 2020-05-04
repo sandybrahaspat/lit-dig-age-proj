@@ -8,3 +8,7 @@ Use this file to practice your pull-request skills! Follow the directions in the
 ***Important:*** Make all your changes below the line, so these instructions remain here for everyone else!
 
 ---
+
+## Amanda W
+
+Hello there, digital Humanists! Good luck on your finals!
