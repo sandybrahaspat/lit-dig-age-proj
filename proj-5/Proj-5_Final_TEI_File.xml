@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Revisions to Henry David Thoreau's manuscript of Walden</title>
+            <editor>Danielle Crowley</editor>
+            <editor>Alyssa Harrington</editor>
+            <editor>Madison Jackson</editor>
+            <editor>Noah Liberman</editor>
+            <editor>Mitchell Pace</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Final Project for ENGL 340, Literature and Literary Study in the Digital Age, Spring 2020, SUNY Geneseo.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Hungtington Library</repository>
+               <idno>HM 924</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author>Henry David Thoreau</author>
+                     <title>Walden</title>
+                  </msItem>
+               </msContents>
+            </msDesc>
+            <bibl>
+            A page from HM 924, the manuscript of Walden, "Higher Laws", Paragraph 1, Version E
+         </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surface xml:id="hm924v5n750">
+         <graphic url="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/750/full/full/0/default.jpg"/>
+            <zone>
+               <note>The First paragraph in the Higher Laws chapter of Walden give insight to Thoreau's mental health while living in the woods - many of the revisions he makes in this chapter are afterthoughts written in pencil, often times justifiying his actions in the sentence prior. Throughout this section, Thoreau also makes revisions to make the text applicable to a more generalized population, hence the title "Higher Laws" - he is arguing that what he is outlying is are the higher governing laws of nature and man.</note>
+               <line>Transribe each line of text on the portion</line>
+               <line>of the page you choose to transcribe,</line>
+               <line>enclosing each line separately in an opening</line>
+               <line>and closing "line" tag, like what you see</line>
+               <line>here. Try to capture additions (insertions)</line>
+               <line>and deletions (cancellations). An example would be something like this: The mass of</line>
+               <line><del rend="strikethrough">mankind</del> <add place="above line"><handShift medium="pencil"/>men</add> lead lives of quiet desperation.</line>
+               <line>Replace <add place="above line">the</add> words "strikethrough" and "above line"</line> 
+               <line>with other terms of your own as appropriate.</line>
+               <line>Just be consistent. Use the handShift</line>
+               <line>element for insertions that are in pencil.</line>
+               <line>If they're in the same ink used for the</line>
+               <line>main text, you can omit this step. You're</line>
+               <line>sure to find this work very <unclear reason="illegible"></unclear></line>
+               <!-- Another thing you should know. Sometimes Thoreau draws a vertical line through an entire passage or even through a whole page. This kind of mark isn't a deletion. He does this to indicate to himself that he's carried the passage over to a subsequent draft or another part of the current draft. If you come across and example and want to encode it, the right way to do it is: <metamark function="used" rend="line" /> -->
+            </zone>
+         </surface>
+   </sourceDoc>
+</TEI>
