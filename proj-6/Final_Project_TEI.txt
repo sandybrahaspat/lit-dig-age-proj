@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Revisions to Henry David Thoreau's manuscript of Walden</title>
+            <editor>Claire Rogers</editor>
+            <editor>Emma Raupp</editor>
+            <editor><!-- Replace this comment with a group member's name --></editor>
+            <editor><!-- Replace this comment with a group member's name --></editor>
+            <editor><!-- Replace this comment with a group member's name --></editor>
+            <editor><!-- Replace this comment with a group member's name --></editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Final Project for ENGL 340, Literature and Literary Study in the Digital Age, Spring 2020, SUNY Geneseo.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Hungtington Library</repository>
+               <idno>HM 924</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author>Henry David Thoreau</author>
+                     <title>Walden</title>
+                  </msItem>
+               </msContents>
+            </msDesc>
+            <bibl>
+            A page from HM 924, the manuscript of Walden, <"Visitors">, <Paragraph 2>, <Version A>
+         </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surface xml:id="hm924v1n166">
+         <graphic url="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/166/full/pct:100/0/default.jpg"/>
+            <zone>
+               <note><!-- Replace this comment with a short note describing the page you're transcribing and how it relates to the story you're telling in TimelineJS about a revision or revisions to Walden. --></note>
+	       <line>I had 3 chairs in my house -</line>               
+	       <line>1 for <unclear cert="low">solitude</unclear> - 2 for friends and</line>
+	       <line>3 - for society. When visitors came</line>
+	       <line>in larger and unexpected numbers</line>
+	       <line>there was but the <unclear cert="medium">3d</unclear> for them</line>
+	       <line>all - but they generally economised</line>
+	       <line>the room by standing up. <gap reason="illegible" /> -</line>
+	       <line>something how many great men</line>
+	       <line>and women a small house will</line>
+	       <line>contain. I had had 25 or 30</line>
+	       <line>souls and <add place="above line, pencil, prior word in parentheses">with their</add> bodies <unclear cert="medium">at one</unclear> under</line>
+	       <line>my roof - and yet so often parted</line>
+	       <line>without being aware that we had</line>
+	       <line>come very near to one another. <add place="above line, pencil, carrot"><unclear cert="low">many</unclear> of</add> <unclear cert="very low">their houses</unclear>
+	       <line><del rend="strikethrough in pencil">generally</del> with their <handShift medium="pencil"><add place="above line, carrot"><unclear cert="low">immense</unclear> apartments, their</add></handShift> huge halls &</line>
+	       <line><del rend="strikethrough in pencil">garrets</del> & cellars, <handShift medium="pencil"><add place="above line, carrot">for the image of <gap reason="illegible" /> & <unclear cert="low">is</unclear> <gap reason="illegible"> of hence</add></handShift> <unclear cert="low">inside</unclear></line>
+	       <line>homes as they change for then is</line>
+incomplete     <line><unclear cert="low">very</unclear> <unclear cert="medium">curious</unclear> <handShift medium="pencil"><add place="above line, carrot">*THE?* are is most of WORK IN PROGRESS <handShift medium="crayon">[</handShift><handShift medium="pencil">(</handShift><del rend="strikeout in pencil"><unclear cert="low">one would</unclear> certainly</del>
+	       <line><del rend="strikethrough in pencil"><unclear cert="high">be</unclear> somewhat</del> astonished, <del rend="hashes in pencil">if</del> is his
+
+
+
+	       <line>Transribe each line of text on the portion</line>
+               <line>of the page you choose to transcribe,</line>
+               <line>enclosing each line separately in an opening</line>
+               <line>and closing "line" tag, like what you see</line>
+               <line>here. Try to capture additions (insertions)</line>
+               <line>and deletions (cancellations). An example would be something like this: The mass of</line>
+               <line><del rend="strikethrough">mankind</del> <add place="above line"><handShift medium="pencil"/>men</add> lead lives of quiet desperation.</line>
+               <line>Replace <add place="above line">the</add> words "strikethrough" and "above line"</line> 
+               <line>with other terms of your own as appropriate.</line>
+               <line>Just be consistent. Use the handShift</line>
+               <line>element for insertions that are in pencil.</line>
+               <line>If they're in the same ink used for the</line>
+               <line>main text, you can omit this step. You're</line>
+               <line>sure to find this work very <unclear reason="illegible"></unclear></line>
+               <!-- Another thing you should know. Sometimes Thoreau draws a vertical line through an entire passage or even through a whole page. This kind of mark isn't a deletion. He does this to indicate to himself that he's carried the passage over to a subsequent draft or another part of the current draft. If you come across and example and want to encode it, the right way to do it is: <metamark function="used" rend="line" /> -->
+            </zone>
+         </surface>
+   </sourceDoc>
+</TEI>
