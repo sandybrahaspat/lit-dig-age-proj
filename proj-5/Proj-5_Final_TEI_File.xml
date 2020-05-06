@@ -36,25 +36,33 @@
       </fileDesc>
    </teiHeader>
    <sourceDoc>
-      <surface xml:id="hm924v5n750">
-         <graphic url="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/750/full/full/0/default.jpg"/>
+      <surface xml:id="hm924v5n764">
+         <graphic url="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/764/full/full/0/default.jpg"/>
+      <surface xml:id="hm924v5n765">
+         <graphic url="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/765/full/full/0/default.jpg">
             <zone>
-               <note>The First paragraph in the Higher Laws chapter of Walden give insight to Thoreau's mental health while living in the woods - many of the revisions he makes in this chapter are afterthoughts written in pencil, often times justifiying his actions in the sentence prior. Throughout this section, Thoreau also makes revisions to make the text applicable to a more generalized population, hence the title "Higher Laws" - he is arguing that what he is outlying is are the higher governing laws of nature and man.</note>
-               <line>Transribe each line of text on the portion</line>
-               <line>of the page you choose to transcribe,</line>
-               <line>enclosing each line separately in an opening</line>
-               <line>and closing "line" tag, like what you see</line>
-               <line>here. Try to capture additions (insertions)</line>
-               <line>and deletions (cancellations). An example would be something like this: The mass of</line>
-               <line><del rend="strikethrough">mankind</del> <add place="above line"><handShift medium="pencil"/>men</add> lead lives of quiet desperation.</line>
-               <line>Replace <add place="above line">the</add> words "strikethrough" and "above line"</line> 
-               <line>with other terms of your own as appropriate.</line>
-               <line>Just be consistent. Use the handShift</line>
-               <line>element for insertions that are in pencil.</line>
-               <line>If they're in the same ink used for the</line>
-               <line>main text, you can omit this step. You're</line>
-               <line>sure to find this work very <unclear reason="illegible"></unclear></line>
-               <!-- Another thing you should know. Sometimes Thoreau draws a vertical line through an entire passage or even through a whole page. This kind of mark isn't a deletion. He does this to indicate to himself that he's carried the passage over to a subsequent draft or another part of the current draft. If you come across and example and want to encode it, the right way to do it is: <metamark function="used" rend="line" /> -->
+               <note>Looking at the revisions in what use to be the seventh and ending paragraph of the Higher Laws chapter of Walden documents the changes Thoreau makes to make this section more general and applicable to everyone. Thoreau changes words that apply directly to him to words that apply to everyone, showing that, true to the chapters name Higher Laws, what Thoreau is discussing applys to everyone, not just himself.</note>
+               <line> If <del rend="strikethrough">I listen</del> <add><hi rend="underline"><handShift medium="pencil"/>one listens</hi></add> to the faintest but constand suggestions of <del rend="strikethrough">my</del></line>
+               <line><add><hi rend="underline"><handShift medium="pencil"/>his</hi></add> genius, which are certainly true, <del rend="strikethrough">I see</del> <add><hi rend="underline"><handShift medium="pencil"/>he sees</hi></add> not to what</line>
+               <line>extremes or even insanity it <del rend="strikethrough">would lead me</del> <add><hi rend+"underline"><handShift medium="pencil"/>may lead him</hi></add> and yet</line>
+               <line>that way as <del rend="strikethrough">I grow</del> <add><hi rend="underline"><handShift medium="pencil"/>he grows</hi></add> more resolute and faithful <del rend="strikethrough">my</del> <add><hi rend="underline"><handShift medium="pencil"/>his</hi></add> road</line>
+               <line>lies The faintest assured objection which one healthy man feels will</line>
+               <line>at length prevail over the arguments and customs of mankind. No</line>
+               <line>man ever followed his genius till it misled him. Though the result</line>
+               <line>were bodily weakness, yet no <del rend="strikethrough">man</del> <add><hi rend="underline"><handShift medium="pencil"/>one</hi></add> perhaps can say that the</line> 
+               <line>consequences were to be regretted, for these were a life in</line>
+               <line>conformity to higher principles. If the day and the night are such that</line>
+               <line>you greet them with joy, and life emits a fragrance like flowers and</line>
+               <line>sweet-scented herbs, is more elastic, more starry, more immortal,—</line>
+               <line>that is your success. All nature is your congratulation, and you have</line>
+               <line>cause momentarily to bless yourself. The greatest gains and values</line>
+               <line>are farthest from being appreciated. We easily come to doubt if they</line>
+               <line>exist. We soon forget them. <hi rend="underline"><handshift mediums="ink"/>Perhaps</hi> the</line>
+               <line>facts most astounding and most real are never communicated by</line>
+               <line>man to man. The true harvest of my daily life is somewhat as</line>
+               <line>intangible and indescribable as the tints of morning or evening. It is a</line>
+               <line>little star-dust caught, a segment of the rainbow which I have</line>
+               <line>clutched.</line>
             </zone>
          </surface>
    </sourceDoc>
