@@ -38,13 +38,14 @@
    <sourceDoc>
       <surface xml:id="hm924v5n764">
          <graphic url="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/764/full/full/0/default.jpg"/>
+      </surface>
       <surface xml:id="hm924v5n765">
-         <graphic url="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/765/full/full/0/default.jpg">
+         <graphic url="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/765/full/full/0/default.jpg"/>
             <zone>
                <note>Looking at the revisions in what use to be the seventh and ending paragraph of the Higher Laws chapter of Walden documents the changes Thoreau makes to make this section more general and applicable to everyone. Thoreau changes words that apply directly to him to words that apply to everyone, showing that, true to the chapters name Higher Laws, what Thoreau is discussing applys to everyone, not just himself.</note>
                <line> If <del rend="strikethrough">I listen</del> <add><hi rend="underline"><handShift medium="pencil"/>one listens</hi></add> to the faintest but constand suggestions of <del rend="strikethrough">my</del></line>
                <line><add><hi rend="underline"><handShift medium="pencil"/>his</hi></add> genius, which are certainly true, <del rend="strikethrough">I see</del> <add><hi rend="underline"><handShift medium="pencil"/>he sees</hi></add> not to what</line>
-               <line>extremes or even insanity it <del rend="strikethrough">would lead me</del> <add><hi rend+"underline"><handShift medium="pencil"/>may lead him</hi></add> and yet</line>
+               <line>extremes or even insanity it <del rend="strikethrough">would lead me</del> <add><hi rend="underline"><handShift medium="pencil"/>may lead him</hi></add> and yet</line>
                <line>that way as <del rend="strikethrough">I grow</del> <add><hi rend="underline"><handShift medium="pencil"/>he grows</hi></add> more resolute and faithful <del rend="strikethrough">my</del> <add><hi rend="underline"><handShift medium="pencil"/>his</hi></add> road</line>
                <line>lies The faintest assured objection which one healthy man feels will</line>
                <line>at length prevail over the arguments and customs of mankind. No</line>
@@ -57,7 +58,7 @@
                <line>that is your success. All nature is your congratulation, and you have</line>
                <line>cause momentarily to bless yourself. The greatest gains and values</line>
                <line>are farthest from being appreciated. We easily come to doubt if they</line>
-               <line>exist. We soon forget them. <hi rend="underline"><handshift mediums="ink"/>Perhaps</hi> the</line>
+               <line>exist. We soon forget them. <hi rend="underline"><handShift medium="ink"/>Perhaps</hi> the</line>
                <line>facts most astounding and most real are never communicated by</line>
                <line>man to man. The true harvest of my daily life is somewhat as</line>
                <line>intangible and indescribable as the tints of morning or evening. It is a</line>
