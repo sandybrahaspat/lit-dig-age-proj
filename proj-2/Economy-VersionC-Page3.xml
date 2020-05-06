@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Revisions to Henry David Thoreau's manuscript of Walden</title>
+            <editor>Emma Annonio</editor>
+            <editor><!-- Replace this comment with a group member's name --></editor>
+            <editor><!-- Replace this comment with a group member's name --></editor>
+            <editor><!-- Replace this comment with a group member's name --></editor>
+            <editor><!-- Replace this comment with a group member's name --></editor>
+            <editor><!-- Replace this comment with a group member's name --></editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Final Project for ENGL 340, Literature and Literary Study in the Digital Age, Spring 2020, SUNY Geneseo.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Hungtington Library</repository>
+               <idno>HM 924</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author>Henry David Thoreau</author>
+                     <title>Walden</title>
+                  </msItem>
+               </msContents>
+            </msDesc>
+            <bibl>
+            A page from HM 924, the manuscript of Walden, <"Economy">, <"Page 3">, <"Paragraph 2b">, <"Version C">
+         </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surface xml:id="hm924v3n436">
+         <graphic url="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/436/full/full/0/default.jpg"/>
+            <zone>
+               <note><!-- Replace this comment with a short note describing the page you're transcribing and how it relates to the story you're telling in TimelineJS about a revision or revisions to Walden. --></note>
+               <line>Transribe each line of text on the portion</line>
+               <line>of the page you choose to transcribe,</line>
+               <line>enclosing each line separately in an opening</line>
+               <line>and closing "line" tag, like what you see</line>
+               <line>here. Try to capture additions (insertions)</line>
+               <line>Theme by the narrowness of my</line>
+               <line>experience. <add place="above line"><handShift medium="pencil"/>Moreover</add> I <add place="above line"><handShift medium="pencil"/>for my own part</add> require of <del rend="strikethrough">a</del> <add place="above line"><handShift medium="pencil"/>every</add> writer </line>
+               <line><del rend="strikethrough">that he give me</del> a simple and</line> 
+               <line>sincere account of his own life,</line>
+               <line><del rend="strikethrough">and not so much</del> <add place="above line"><handShift medium="pencil"/>rather than</add> what he has</line>
+               <line>element for insertions that are in pencil.</line>
+               <line>If they're in the same ink used for the</line>
+               <line>main text, you can omit this step. You're</line>
+               <line>sure to find this work very <unclear reason="illegible"></unclear></line>
+               <line>main text, you can omit this step. You're</line>
+               <line>main text, you can omit this step. You're</line>
+               <line>main text, you can omit this step. You're</line>
+               <line>main text, you can omit this step. You're</line>
+               <line>main text, you can omit this step. You're</line>
+               <line>main text, you can omit this step. You're</line>
+               <line>main text, you can omit this step. You're</line>
+               <line>main text, you can omit this step. You're</line>
+               <line>main text, you can omit this step. You're</line>
+               <line>main text, you can omit this step. You're</line>
+               <line>main text, you can omit this step. You're</line>
+               <line>main text, you can omit this step. You're</line>
+               <line>main text, you can omit this step. You're</line>
+               <line>main text, you can omit this step. You're</line>
+               <!-- Another thing you should know. Sometimes Thoreau draws a vertical line through an entire passage or even through a whole page. This kind of mark isn't a deletion. He does this to indicate to himself that he's carried the passage over to a subsequent draft or another part of the current draft. If you come across and example and want to encode it, the right way to do it is: <metamark function="used" rend="line" /> -->
+            </zone>
+         </surface>
+   </sourceDoc>
+</TEI>
