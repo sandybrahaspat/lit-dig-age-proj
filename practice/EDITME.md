@@ -16,3 +16,7 @@ Hello there, digital Humanists! Good luck on your finals!
 ## Christina I
 
 This is a test... Did it work?? lol
+
+## Emma A
+
+This is also a test, and I am very much hoping I am doing it right. Thank you Amanda for the helpful videos!!!!
