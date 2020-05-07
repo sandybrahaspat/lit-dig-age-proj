@@ -8,7 +8,7 @@
          <titleStmt>
             <title>Revisions to Henry David Thoreau's manuscript of Walden</title>
             <editor>Emma Annonio</editor>
-            <editor><!-- Replace this comment with a group member's name --></editor>
+            <editor><Sandy Brahaspat</editor>
             <editor><!-- Replace this comment with a group member's name --></editor>
             <editor><!-- Replace this comment with a group member's name --></editor>
             <editor><!-- Replace this comment with a group member's name --></editor>
@@ -61,14 +61,14 @@
                <line>main text, you can omit this step. You're</line>
                <line>main text, you can omit this step. You're</line>
                <line>main text, you can omit this step. You're</line>
-               <line>main text, you can omit this step. You're</line>
-               <line>main text, you can omit this step. You're</line>
-               <line>main text, you can omit this step. You're</line>
-               <line>main text, you can omit this step. You're</line>
-               <line>main text, you can omit this step. You're</line>
-               <line>main text, you can omit this step. You're</line>
-               <line>main text, you can omit this step. You're</line>
-               <line>main text, you can omit this step. You're</line>
+               <line>Or instruction, let him communicate</line>
+               <line>it. Let the money-getter tell </line>
+               <line>us how much he loves wealth,</line>
+               <line>and what means he takes to</line>
+               <line>accumulate it. He should not </line>
+               <line>write on Foreign Missions. The </line>
+               <line>mechanic will naturally write a-</line>
+               <line>bout his trade, the farmer about</line>
                <!-- Another thing you should know. Sometimes Thoreau draws a vertical line through an entire passage or even through a whole page. This kind of mark isn't a deletion. He does this to indicate to himself that he's carried the passage over to a subsequent draft or another part of the current draft. If you come across and example and want to encode it, the right way to do it is: <metamark function="used" rend="line" /> -->
             </zone>
          </surface>
