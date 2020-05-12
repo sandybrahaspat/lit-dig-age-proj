@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>My Practice TEI File for ENGL 340</title>
+            <editor><!-- Group 1 --></editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Assignment for ENGL 340, SUNY Geneseo, Spring 2020</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Hungtington Library</repository>
+               <idno>HM 924</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author>Henry David Thoreau</author>
+                     <title>Walden</title>
+                  </msItem>
+               </msContents>
+            </msDesc>
+            <bibl>
+            A page from HM 924, the manuscript of Walden, <!-- "Solitude" -->, <!-- Page 1 -->, <!-- Changes Between Version A -->
+         </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surface xml:id="Insert real page">
+         <graphic url="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/911/full/full/0/default.jpg"/>
+            <zone>
+               <note><!-- We are transcribing the changes to page 1 of "Solitude" across all volumes of Walden --></note>
+               <line>This is a delicious evening, when the whole body <add>seems to be</add> one sense,</line>
+               <line>and imbibes delight through every pore. I go and come with a strange liberty in Nature, a part of herself.</line>
+               </line>As I walk along the <add rend= "pencil">stony</add> shore <del rend="strikethrough">of the pond</del> though it is cool <del rend="strikethrough">as well as</del></line>
+               <line><add rend= "ink">and also</add> cloudy and windy, and I see <del rend="strikethrough">no peculiarity, which I can describe</del> <add rend= "pencil">nothing in particular to attract me,</add></line>
+               <line><del rend="strikethrough">yet all things are very</del> <add rend= "pencil">all the elements are unspeakably</add> congenial to me.</line>
+               <line><add rend= "pencil">Again</add> the frogs <del rend= "strikethrough">peep</del><add rend= "pencil">trump</add>to celebrate the sacred hours of the night, and</line>
+               <line><del rend= "strikethrough">the whippoorwill sings in</del><add rend= "pencil">the note of the whippoorwill is borne on</add> the rippling wind</line>
+               <line><add rend= "pencil">from over the water.</add><del rend= "strikethrough">My breath is in</del><add rend= "ink">Sympathy with</add> the fluttering alder and poplar leaves almost</line>
+               <line>takes away my breath; yet, like the lake, my<del rend= "strikethrough">thoughts are</del><add rend= "pencil">serenity is</add>rippled but not ruffled.</line>
+               <line>These small waves raised by the evening wind are as<del rend= "strikethrough">far</del><add rend= "pencil">remote</add> from the storm as the smooth</line>
+               <line>reflecting surface. Though it is now<del rend= "strikethrough">night, the waves still dash</del><add rend= "pencil">dark,</add><add>the wind still blows and roars in the wood,</add><add rend= "pencil">the waves still dash</add></line>
+               <line>and some creatures lull the rest with their notes.The response is never complete. The wildest animals<del rend= "strikethrough">seem not to</del></line>
+               <line><add rend= "pencil">do not</add><add>repose</add><del rend= "strikethrough">and</del><ad rend= "ink">but</add>seek their prey now; the fox, and skunk, and rabbit, roam the fields and woods without fear.</line>
+               <line><del rend= "strikethrough">We associate wildness with the night and silence. But the repose is never complete;</del> nature has her watchmen who are links connecting the days of animated life.</line>
+            </zone>
+            <zone>
+               <note><!-- In this version, paragraph two has not been written yet. It skips directly to what is eventually known as the third paragraph in this chapter --></note>
+               <line> There seems always to be sufficient space about us. Our horizon is never quite at our elbows. The <add rend= "pencil">thick</add> wood is not just at my door, nor the pond, but somewhat is always clearing,</line>
+               <line><add rend= "ink">and familiar and worn by us</add> appropriated and fenced in some way <del rend= "strikethrough">and familiar and worn by us;</del> and reclaimed from Nature.</line>
+               <line>For what reason have I this vast range and circuit, in nature—a square mile and more of unfrequented forest, for my privacy, abandoned to me by men?</line>
+               <line><del rend= "strikethrough">Surely we do not live crowded.</del>My nearest neighbor is more than a mile distant, and no house is visible from <add rend= "pencil">any place but the hill-tops</add> within half a mile of my own.</line>
+               <line>I have my horizon bounded by woods all to myself; I have a distant view of railroad where it touches the pond on the one hand, and of the fence which skirts the woodland road on the other.</line>
+               <line>But for the most part it is as solitary where I live as on the prairies. It is as much Asia or Africa as New England.</line>
+               <line>I have, as it were, my own sun and moon and stars, and a little world all to myself. At night there was never a traveller passed my house, or knocked at my door, mre than if I were the first or last man;</line>
+               <line>unless it were in the spring, when some came occasionally from the village to fish for pouts in the pond, and,—they plainly fished much more in Walden Pond of their own natures, and baited their hooks with darkness, —but they soon retreated,</line>
+               <line>usually with light baskets, and left "the vale to solitude and me," and the dark kernel of the night was never profaned by any human neighborhood.</line>
+               <line> I believe that men are generally still a little afraid of the dark, though the witches are <add rend= "pencil">all</add> hung, and Christianity and candles <del rend= "strikethrough">are</del><add rend= "pencil">have been</add> invented.</line>
+            </zone>
+         </surface>
+   </sourceDoc>
+</TEI>

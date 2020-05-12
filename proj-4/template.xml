@@ -7,13 +7,9 @@
       <fileDesc>
          <titleStmt>
             <title>Revisions to Henry David Thoreau's manuscript of Walden</title>
-            <editor><!-- Replace this comment with a group member's name --></editor>
-            <editor><!-- Replace this comment with a group member's name --></editor>
-            <editor><!-- Replace this comment with a group member's name --></editor>
-            <editor><!-- Replace this comment with a group member's name --></editor>
-            <editor><!-- Replace this comment with a group member's name --></editor>
-            <editor><!-- Replace this comment with a group member's name --></editor>
-         </titleStmt>
+            <editor>Maeve Morley</editor>
+            <editor>Christina Interlichia</editor>
+                  </titleStmt>
          <publicationStmt>
             <p>Final Project for ENGL 340, Literature and Literary Study in the Digital Age, Spring 2020, SUNY Geneseo.</p>
          </publicationStmt>
@@ -31,31 +27,46 @@
                </msContents>
             </msDesc>
             <bibl>
-            A page from HM 924, the manuscript of Walden, <!-- Replace with Chapter title, e.g. "Spring" -->, <!-- Replace with identifying number(s) of paragraph segement(s) included on this page  -->, <!-- Replace with version, e.g., Version A -->
+            A page from HM 924, the manuscript of Walden, <!-- "Solitude" -->, <!-- 5b, 6 -->, <!-- Version B -->
          </bibl>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <sourceDoc>
-      <surface xml:id="hm924v1n232"><!-- This is just an example. Replace the id with actual xml:id of your image. -->
-         <graphic url="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/232/full/full/0/default.jpg"/><!-- This is just an example. Replace the url with the actual url of your manuscript page. -->
+      <surface xml:id="hm924v2n395">
+         <graphic url="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/395/full/full/0/default.jpg"/>
             <zone>
-               <note><!-- Replace this comment with a short note describing the page you're transcribing and how it relates to the story you're telling in TimelineJS about a revision or revisions to Walden. --></note>
-               <line>Transribe each line of text on the portion</line>
-               <line>of the page you choose to transcribe,</line>
-               <line>enclosing each line separately in an opening</line>
-               <line>and closing "line" tag, like what you see</line>
-               <line>here. Try to capture additions (insertions)</line>
-               <line>and deletions (cancellations). An example would be something like this: The mass of</line>
-               <line><del rend="strikethrough">mankind</del> <add place="above line"><handShift medium="pencil"/>men</add> lead lives of quiet desperation.</line>
-               <line>Replace <add place="above line">the</add> words "strikethrough" and "above line"</line> 
-               <line>with other terms of your own as appropriate.</line>
-               <line>Just be consistent. Use the handShift</line>
-               <line>element for insertions that are in pencil.</line>
-               <line>If they're in the same ink used for the</line>
-               <line>main text, you can omit this step. You're</line>
-               <line>sure to find this work very <unclear reason="illegible"></unclear></line>
-               <!-- Another thing you should know. Sometimes Thoreau draws a vertical line through an entire passage or even through a whole page. This kind of mark isn't a deletion. He does this to indicate to himself that he's carried the passage over to a subsequent draft or another part of the current draft. If you come across and example and want to encode it, the right way to do it is: <metamark function="used" rend="line" /> -->
+               <note> Our group has decided to focus on the paragraphs 5b to 10 that Thoreau added from Version A to B. Here, we are specifically transcribing part of paragraph 5b and 6. The last part of 5b is at the top of the page and the entirety of paragraph 6 continues to the bottom of the page.</note>
+               <line>accumulated<add><handShift medium="ink"/>what is called</add> "a handsome property", <add><handShift medium="ink"/>though I never got a fair view of it</add> ,on</line>
+               <line>the Walden road driving a pair</line>
+               <line>of cattle to market, who inquired</line>
+               <line>of me how I could bring my mind</line>
+               <line>to give up so many of the comforts</line>
+               <line>of life. I answered that I was very</line>
+               <line>sure I liked it passably well. I was</line>
+               <line>not joking. And so I went home</line> 
+               <line>to my bed, and left him to pick his</line>
+               <line>way through the darkness and the</line>
+               <line>mud to Brighton some 15 miles distant,</line>
+               <line>which place he would reach some time</line>
+               <line>in the morning.</line>
+               <line><del rend="strikethrough">The life of the spirit</del> <add place="above line">awakening of coming to life to a dead man</add> makes</line>
+               <line>indifferent all times <note> "p. 210" is added slightly above the line in green ink</note> and places</line>
+               <line><add>The <del rend="strikethrough">That </del></add> place where <add place="above line">that may occur</add> <del rend="strikethrough"> <unclear cert="low">He sees</unclear></del> is</line>
+               <line>always the same and indescribably</line>
+               <line>pleasant of all our senses. <add place="above the line">For the most part</add> we <del rend="strikethrough">had</del></line>
+               <line>allow<del rend="strikethrough">ed</del> only <add>outlying <del rend="strikethrough">neighboring</del></add> and transcient</line>
+               <line>circumstances to make our occasions.</line>
+               <line>They are in fact the causes of our</line>
+               <line><unclear cert="high">distraction</unclear> Nearest to all things</line>
+               <line>is that power which fashions</line>
+               <line>their being. <hi rend="underline">Next</hi> to us the grandest</line>
+               <line>laws are continually being executed.</line>
+               <line><hi rend="underline">Next</hi> to us is not the workman</line>
+               <line>whom we have hired, with whom we have</line>
+               <line>we love so well to talk, but the</line>
+               <line>workman whose work we are.</line>
+              
             </zone>
          </surface>
    </sourceDoc>

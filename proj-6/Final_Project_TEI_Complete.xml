@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Revisions to Henry David Thoreau's manuscript of Walden</title>
+            <editor>Claire Rogers</editor>
+            <editor>Emma Raupp</editor>
+            <editor>Anthony Guttilla</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Final Project for ENGL 340, Literature and Literary Study in the Digital Age, Spring 2020, SUNY Geneseo.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Hungtington Library</repository>
+               <idno>HM 924</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author>Henry David Thoreau</author>
+                     <title>Walden</title>
+                  </msItem>
+               </msContents>
+            </msDesc>
+            <bibl>
+            A page from HM 924, the manuscript of Walden, "Visitors", Paragraph 2, Version A
+         </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surface xml:id="hm924v1n166">
+         <graphic url="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/166/full/pct:100/0/default.jpg"/>
+            <zone>
+               <note><!-- This page includes the beginning of Version A's paragraph two of "Visitors," establishing both strong sentences that stuck all the way through to the final version "I had three chairs..." and a heavily edited sentence at the end that similarly made it into the final draft in a relatively similar form to its revised existence in A. --></note>
+               <line>with a <unclear cert="medium">handmade</unclear>handkerchief tied</line>
+               <line><unclear cert="high">about</unclear>it. <gap reason="illegible" />we are to <unclear cert="low">succeed</unclear></line>
+               <line>the <gap reason="illegible" />this <unclear cert="medium">charity</unclear>. Their <gap reason="illegible" /></line>
+               <line>a <gap reason="illegible" />which allowed them</line>
+               <line><gap reason="illegible" />themselves seems</line>
+               <line>their <unclear cert="high">least</unclear>disadvantage. Civi-</line>
+               <line>lization seems to make bright only</line>
+               <line>the superficial film of the eye. Most</line>
+               <line>men are wrecked upon their conscious-</line>
+	       <line>ness.</line>
+               <line>I had 3 chairs in my house -</line>               
+	       <line>1 for <unclear cert="low">solitude</unclear> - 2 for friends and</line>
+	       <line>3 - for society. When visitors came</line>
+	       <line>in larger and unexpected numbers</line>
+	       <line>there was but the <unclear cert="medium">3d</unclear> for them</line>
+	       <line>all - but they generally economised</line>
+	       <line>the room by standing up. <gap reason="illegible" /> -</line>
+	       <line>something how many great men</line>
+	       <line>and women a small house will</line>
+	       <line>contain. I had had 25 or 30</line>
+	       <line>souls and <add place="above line, pencil, prior word in parentheses">with their</add> bodies <unclear cert="medium">at one</unclear> under</line>
+	       <line>my roof - and yet so often parted</line>
+	       <line>without being aware that we had</line>
+	       <line>come very near to one another. <add place="above line, pencil, carrot"><unclear cert="low">Many</unclear> of</add> <unclear cert="low">the houses</unclear></line>
+	       <line><del rend="strikethrough in pencil">generally</del> with their <handShift medium="pencil"><add place="above line, carrot"><unclear cert="low">immense</unclear> apartments, their</add></handShift> huge halls and</line>
+	       <line><del rend="strikethrough in pencil">garrets</del> and cellars, <handShift medium="pencil"><add place="above line, carrot">for the image of wines and <gap reason="illegible" />is<gap reason="illegible" /> of hence</add></handShift> seem <unclear cert="low">to me ex-</unclear></line>
+	       <line>travagantly large for their in-</line>
+               <line><unclear cert="medium">habitants</unclear> <handShift medium="pencil"><add place="above line, carrot">they are <gap reason="illegible" />and<gap reason="illegible" />that the<gap reason="illegible" />are<gap reason="illegible" />them<gap reason="illegible" /><unclear cert="low">frequently</unclear><gap reason="illegible" />vermin that<gap reason="illegible" />therein</add>(</handShift>.<del rend="strikeout in pencil"><note><!--Left bracket and strikethrough are present in rust-coloured colored pencil or grease pencil, most likely from Franklin Sanborn after Thoreau's death--></note><unclear cert="low">One would</unclear> certainly</del></line>
+	       <line><del rend="strikethrough in pencil"><unclear cert="high">be</unclear> somewhat</del> astonished, <del rend="hashes in pencil">if</del> is his</line>
+            </zone>
+         </surface>
+   </sourceDoc>
+</TEI>

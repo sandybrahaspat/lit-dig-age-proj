@@ -10,9 +10,6 @@
             <editor>Claire Rogers</editor>
             <editor>Emma Raupp</editor>
             <editor>Anthony Guttilla</editor>
-            <editor><!-- Replace this comment with a group member's name --></editor>
-            <editor><!-- Replace this comment with a group member's name --></editor>
-            <editor><!-- Replace this comment with a group member's name --></editor>
          </titleStmt>
          <publicationStmt>
             <p>Final Project for ENGL 340, Literature and Literary Study in the Digital Age, Spring 2020, SUNY Geneseo.</p>
@@ -31,7 +28,7 @@
                </msContents>
             </msDesc>
             <bibl>
-            A page from HM 924, the manuscript of Walden, <"Visitors">, <Paragraph 2>, <Version A>
+            A page from HM 924, the manuscript of Walden, "Visitors", Paragraph 2, Version A
          </bibl>
          </sourceDesc>
       </fileDesc>
@@ -40,18 +37,18 @@
       <surface xml:id="hm924v1n166">
          <graphic url="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/166/full/pct:100/0/default.jpg"/>
             <zone>
-               <note><!-- Replace this comment with a short note describing the page you're transcribing and how it relates to the story you're telling in TimelineJS about a revision or revisions to Walden. --></note>
-          <line>with a <unclear cert="medium">handmade</unclear>handkerchief tied</line>
-          <line><unclear cert="high">about</unclear>it. <gap reason="illegible" />we are to <unclear cert="low">succeed</line>
-          <line>the <gap reason="illegible" />this <unclear cert="medium">charity</unclear>. Their <gap reason="illegible" /></line>
-          <line>a <gap reason="illegible" />which allowed them</line>
-          <line><gap reason="illegible" />themselves seems</line>
-          <line>their <unclear cert="high">least</unclear>disadvantage. Civi-</line>
-          <line>lization seems to make bright only</line>
-          <line>the superficial film of the eye. Most</line>
-          <line>men are wrecked upon their conscious-</line>
-          <line>ness.</line>
-	       <line>I had 3 chairs in my house -</line>               
+               <note><!-- This page includes the beginning of Version A's paragraph two of "Visitors," establishing both strong sentences that stuck all the way through to the final version "I had three chairs..." and a heavily edited sentence at the end that similarly made it into the final draft in a relatively similar form to its revised existence in A. --></note>
+               <line>with a <unclear cert="medium">handmade</unclear>handkerchief tied</line>
+               <line><unclear cert="high">about</unclear>it. <gap reason="illegible" />we are to <unclear cert="low">succeed</unclear></line>
+               <line>the <gap reason="illegible" />this <unclear cert="medium">charity</unclear>. Their <gap reason="illegible" /></line>
+               <line>a <gap reason="illegible" />which allowed them</line>
+               <line><gap reason="illegible" />themselves seems</line>
+               <line>their <unclear cert="high">least</unclear>disadvantage. Civi-</line>
+               <line>lization seems to make bright only</line>
+               <line>the superficial film of the eye. Most</line>
+               <line>men are wrecked upon their conscious-</line>
+	       <line>ness.</line>
+               <line>I had 3 chairs in my house -</line>               
 	       <line>1 for <unclear cert="low">solitude</unclear> - 2 for friends and</line>
 	       <line>3 - for society. When visitors came</line>
 	       <line>in larger and unexpected numbers</line>
@@ -64,12 +61,12 @@
 	       <line>souls and <add place="above line, pencil, prior word in parentheses">with their</add> bodies <unclear cert="medium">at one</unclear> under</line>
 	       <line>my roof - and yet so often parted</line>
 	       <line>without being aware that we had</line>
-	       <line>come very near to one another. <add place="above line, pencil, carrot"><unclear cert="low">many</unclear> of</add> <unclear cert="very low">their houses</unclear>
-	       <line><del rend="strikethrough in pencil">generally</del> with their <handShift medium="pencil"><add place="above line, carrot"><unclear cert="low">immense</unclear> apartments, their</add></handShift> huge halls &</line>
-	       <line><del rend="strikethrough in pencil">garrets</del> & cellars, <handShift medium="pencil"><add place="above line, carrot">for the image of <gap reason="illegible" /> & <unclear cert="low">is</unclear> <gap reason="illegible"> of hence</add></handShift> <unclear cert="low">inside</unclear></line>
-	       <line>homes as they change for then is</line>
-incomplete     <line><unclear cert="low">very</unclear> <unclear cert="medium">curious</unclear> <handShift medium="pencil"><add place="above line, carrot">*THE?* are is most of WORK IN PROGRESS <handShift medium="crayon">[</handShift><handShift medium="pencil">(</handShift><del rend="strikeout in pencil"><unclear cert="low">one would</unclear> certainly</del>
-	       <line><del rend="strikethrough in pencil"><unclear cert="high">be</unclear> somewhat</del> astonished, <del rend="hashes in pencil">if</del> is his
+	       <line>come very near to one another. <add place="above line, pencil, carrot"><unclear cert="low">Many</unclear> of</add> <unclear cert="low">the houses</unclear></line>
+	       <line><del rend="strikethrough in pencil">generally</del> with their <handShift medium="pencil"><add place="above line, carrot"><unclear cert="low">immense</unclear> apartments, their</add></handShift> huge halls and</line>
+	       <line><del rend="strikethrough in pencil">garrets</del> and cellars, <handShift medium="pencil"><add place="above line, carrot">for the image of wines and <gap reason="illegible" />is<gap reason="illegible" /> of hence</add></handShift> seem <unclear cert="low">to me ex-</unclear></line>
+	       <line>travagantly large for their in-</line>
+               <line><unclear cert="medium">habitants</unclear> <handShift medium="pencil"><add place="above line, carrot">they are <gap reason="illegible" />and<gap reason="illegible" />that the<gap reason="illegible" />are<gap reason="illegible" />them<gap reason="illegible" /><unclear cert="low">frequently</unclear><gap reason="illegible" />vermin that<gap reason="illegible" />therein</add>(</handShift>.<del rend="strikeout in pencil"><note><!--Left bracket and strikethrough are present in rust-coloured colored pencil or grease pencil, most likely from Franklin Sanborn after Thoreau's death--></note><unclear cert="low">One would</unclear> certainly</del></line>
+	       <line><del rend="strikethrough in pencil"><unclear cert="high">be</unclear> somewhat</del> astonished, <del rend="hashes in pencil">if</del> is his</line>
 
 
             <note><!-- I'll fix this later, but from here down is a different page https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/144/full/pct:100/0/default.jpg --></note>
